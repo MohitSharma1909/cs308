@@ -20,6 +20,7 @@ int main(int argc, char* argv[]) {
 	}
 	else printf("Sqrt of %d is %f\n",input,sqrt(input));
 <<<<<<< HEAD
+	printf("End of.. Exiting.\n");
 =======
 	printf("End of program.\n");
 >>>>>>> br_negativeSupport
