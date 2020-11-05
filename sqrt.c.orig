@@ -10,20 +10,24 @@ positive number. */
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {   //Checking if number of input is 1.
-		printf("Usage: sqrt input\n\n");
+		printf("DEBUG: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 
 	int input = atoi(argv[1]);
 	if (input<0){
-		printf("Sqrt of %d is %fi\n",input,sqrt(-1*input));
+		printf("DEBUG: Sqrt of %d is %fi\n",input,sqrt(-1*input));
 	}
+<<<<<<< HEAD
 	else printf("Sqrt of %d is %f\n",input,sqrt(input));
 <<<<<<< HEAD
-	printf("End of.. Exiting.\n");
 =======
 	printf("End of program.\n");
 >>>>>>> br_negativeSupport
+=======
+	else printf("DEBUG: Sqrt of %d is %f\n",input,sqrt(input));
+	printf("DEBUG: End of program.\n");
+>>>>>>> br_printDebug
 	return(0);
 
 } // end main
